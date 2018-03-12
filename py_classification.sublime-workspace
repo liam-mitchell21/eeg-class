@@ -1,0 +1,278 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"matrices"
+			],
+			[
+				"mat",
+				"mat_contents"
+			],
+			[
+				"mat_",
+				"mat_contents"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "big_data_net.py",
+			"settings":
+			{
+				"buffer_size": 395,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/liamm/eeg-class"
+	],
+	"file_history":
+	[
+		"/home/liamm/MecanumRover/src/teleop_control/scripts/init_2.sh",
+		"/home/liamm/MecanumRover/src/teleop_control/scripts/init_1.sh",
+		"/opt/ros/kinetic/share/turtlebot_teleop/launch/keyboard_teleop.launch",
+		"/opt/ros/kinetic/lib/turtlebot_teleop/turtlebot_teleop_key",
+		"/opt/ros/kinetic/share/turtlebot_teleop/package.xml",
+		"/home/liamm/MecanumRover/src/teleop_control/src/teleop_publisher.cpp",
+		"/home/liamm/MecanumRover/src/motor_control/CMakeLists.txt",
+		"/home/liamm/MecanumRover/src/motor_control/init_arduino.sh",
+		"/home/liamm/MecanumRover/src/teleop_control/teleop.launch",
+		"/home/liamm/MecanumRover/src/mecanum_master/start_w_teleop.launch",
+		"/home/liamm/MecanumRover/src/motor_control/motor_control.launch",
+		"/home/liamm/MecanumRover/src/motor_control/package.xml",
+		"/home/liamm/eeg-class/README.md",
+		"/home/liamm/eeg-class/big_data_net.py",
+		"//tf2_broadcaster.cpp",
+		"/home/liamm/eeg-class/concept_testing/mnist_test.py",
+		"/home/liamm/MecanumRover/src/mecanum_master/start_ip.sh",
+		"/home/liamm/MecanumRover/src/teleop_control/start_teleop.sh",
+		"/home/liamm/MecanumRover/src/teleop_control/scripts/init_0.sh",
+		"/home/liamm/MecanumRover/src/teleop_control/scripts/term.sh",
+		"/home/liamm/MecanumRover/src/teleop_control/scripts/init.sh",
+		"/home/liamm/MecanumRover/src/teleop_control/scripts/init_mod.sh",
+		"/home/liamm/MecanumRover/src/mecanum_master/launch/init_5.launch",
+		"/home/liamm/MecanumRover/src/mecanum_master/start.sh",
+		"/home/liamm/MecanumRover/src/mecanum_master/scripts/term.sh",
+		"/home/liamm/MecanumRover/src/mecanum_master/scripts/init_5.sh",
+		"/home/liamm/MecanumRover/src/mecanum_master/scripts/init_4.sh",
+		"/home/liamm/MecanumRover/src/mecanum_master/scripts/init_3.sh",
+		"/home/liamm/MecanumRover/src/mecanum_master/scripts/init.sh",
+		"/home/liamm/MecanumRover/src/mecanum_master/scripts/init_2.sh",
+		"/home/liamm/MecanumRover/src/mecanum_master/scripts/init_1.sh",
+		"/home/liamm/MecanumRover/src/teleop_control/package.xml",
+		"/home/liamm/MecanumRover/src/teleop_control/scripts/3.sh",
+		"/home/liamm/MecanumRover/src/teleop_control/scripts/2.sh",
+		"/home/liamm/MecanumRover/src/teleop_control/scripts/1.sh",
+		"/home/liamm/MecanumRover/src/teleop_control/init_5.sh",
+		"/home/liamm/MecanumRover/src/mecanum_master/start_teleop.sh",
+		"/home/liamm/MecanumRover/src/mecanum_master/launch/teleop_1.launch",
+		"/home/liamm/nav-stack/catkin_ws/src/mecanum_master/start.sh",
+		"/home/liamm/nav-stack/catkin_ws/src/mecanum_master/launch/teleop_1.launch",
+		"/home/liamm/nav-stack/catkin_ws/src/mecanum_master/scripts/term.sh",
+		"/home/liamm/nav-stack/catkin_ws/src/mecanum_master/scripts/init.sh",
+		"/home/liamm/nav-stack/catkin_ws/src/mecanum_master/test.sh",
+		"/home/liamm/nav-stack/catkin_ws/src/mecanum_master/launch/init_4.launch",
+		"/home/liamm/nav-stack/catkin_ws/src/mecanum_master/launch/init_3.launch",
+		"/home/liamm/nav-stack/catkin_ws/src/mecanum_master/launch/init_1.launch",
+		"/home/liamm/nav-stack/catkin_ws/src/mecanum_master/launch/init_2.launch",
+		"/home/liamm/nav-stack/catkin_ws/src/mecanum_master/scripts/init_2.sh",
+		"/home/liamm/nav-stack/catkin_ws/src/mecanum_master/scripts/xinit.sh",
+		"/home/liamm/nav-stack/catkin_ws/src/mecanum_master/scripts/init_4.sh",
+		"/home/liamm/nav-stack/catkin_ws/src/mecanum_master/package.xml",
+		"/home/liamm/nav-stack/catkin_ws/src/mecanum_master/scripts/init_1.sh",
+		"/home/liamm/nav-stack/catkin_ws/src/mecanum_master/scripts/init_3.sh",
+		"/home/liamm/nav-stack/catkin_ws/src/mecanum_master/launch/init_0.launch",
+		"/home/liamm/nav-stack/catkin_ws/src/mecanum_master/scripts/start.sh",
+		"/home/liamm/nav-stack/turtle_demo/src/learning_tf2/start_demo.launch",
+		"/home/liamm/nav-stack/catkin_ws/src/mecanum_master/CMakeLists.txt",
+		"/home/liamm/nav-stack/catkin_ws/src/tf2_realsense/package.xml",
+		"/home/liamm/nav-stack/pithy/src/mecanum_setup_tf2/src/pixie_tf2_listener.cpp",
+		"/home/liamm/nav-stack/pithy/src/mecanum_setup_tf2/src/tf2_broadcaster.cpp"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "big_data_net.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								395,
+								395
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 35.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "py_classification.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 296.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
