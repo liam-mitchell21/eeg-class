@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"array",
+				"array1"
+			],
+			[
 				"ma",
 				"matrices"
 			],
@@ -23,7 +27,7 @@
 			"file": "big_data_net.py",
 			"settings":
 			{
-				"buffer_size": 395,
+				"buffer_size": 334,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -61,7 +65,8 @@
 	},
 	"expanded_folders":
 	[
-		"/home/liamm/eeg-class"
+		"/home/liamm/eeg-class",
+		"/home/liamm/eeg-class/dont_commit_this"
 	],
 	"file_history":
 	[
@@ -168,23 +173,23 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 395,
+						"buffer_size": 334,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								395,
-								395
+								334,
+								334
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
-						"translation.x": 35.0,
-						"translation.y": 45.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -270,7 +275,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 296.0,
+	"side_bar_width": 116.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
