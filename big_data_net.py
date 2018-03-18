@@ -4,7 +4,7 @@
 # Loading data #
 ################
 
-import numpy
+import numpy as np
 import scipy.io
 import math
 import sklearn
@@ -15,32 +15,41 @@ param = scipy.io.whosmat('dont_commit_this/2d_sensor_epochs.mat')
 
 mat_contents = scipy.io.loadmat('dont_commit_this/2d_sensor_epochs.mat')
 
-array_std = numpy.array(mat_contents['epoch2d_std'])
-array_trg = numpy.array(mat_contents['epoch2d_trg'])
+array_std = np.array(mat_contents['epoch2d_std'])
+array_trg = np.array(mat_contents['epoch2d_trg'])
+
+#print(array_std.shape)
+#print(array_trg.shape)
+
+###################################
+# defining training + testing set #
+###################################
+
+htrials = 50
+
+trainsize = math.floor(htrials*2*(7.5/10))
 
 std_dat = array_std[:,:]
 trg_dat = array_trg[:,:]
+sens_dat = np.transpose(np.concatenate((std_dat,trg_dat),axis=1))
+print(sens_dat.shape)
 
-sens_dat = numpy.concatenate((std_dat,trg_dat),axis=0)
-
-htrials = 20
-trainsize = math.floor(htrials*129*(9/10))
-
-std_class = numpy.full((htrials*129,1),0)
-trg_class = numpy.full((htrials*129,1),1)
-sens_class = numpy.concatenate((std_class,trg_class),axis=0)
+std_class = np.full((153,1),0)
+trg_class = np.full((147,1),1)
+sens_class = np.concatenate((std_class,trg_class),axis=0)
+print(sens_class.shape)
 
 #############
 # shufflin' #
 #############
 
-rand_key = numpy.random.permutation(htrials*2*129)
-numpy.subtract(rand_key,1)
-#print(rand_key)
-sens_dat = sens_dat[rand_key,:]
-sens_class = sens_class[rand_key,:]
-#print(sens_dat.shape)
-#print(sens_class.shape)
+key = np.random.permutation(sens_dat[:,1].size)
+#print(key)
+
+sens_dat = sens_dat[key,:]
+sens_class = sens_class[key,:]
+print(sens_dat.shape)
+print(sens_class.shape)
 
 ##################
 # defining model #
